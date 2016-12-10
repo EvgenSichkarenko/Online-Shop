@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Internet-Shop</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="node_modules/fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="node_modules/slider-pro/dist/css/slider-pro.min.css">
+	<link rel="stylesheet" href="less/contact.css">
+</head>
+<body>
+	<div class="container-fluid menu-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 logo">
+					<a href="index.html"><h1>FooseShoes</h1></a>
+				</div>
+				<div class="col-md-offset-7 col-md-3 right">
+					<a href=""><p class="fa fa-search" aria-hidden="true"></p></a>
+					<button id="login">
+						LOGIN or REGISTER
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid menu-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<ul class="top-menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Product.html">Products</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-md-offset-2 col-md-3 right">
+					<button class="top-menu-button" id="com">
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<span>30</span>
+					</button>
+					<button class="top-menu-button" id="buy">
+						<i class="fa fa-shopping-cart" aria-hidden="true" id="shopping-cart"></i>
+						<span>0</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 content">
+					<p >IT SCHOOL HIllel </p>
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=V__l-pAqXGnXHONymuS3PviP4JkfS_96&amp;width=600&amp;height=400&amp;lang=ru_UA&amp;sourceType=constructor&amp;scroll=true"></script>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+
+	<div class="container-fluid widgets-footer">
+		<div class="container widgets">
+			<div class="row">
+				<div class="col-md-4">
+					<h3>TEXT WIDGET</h3>
+					<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+				</div>
+				<div class="col-md-4">
+					<h3>TWITTER WIDGET</h3>
+					<div>
+						<p class="comnt"><span class="user">@ericafustero</span> Why thank you. Your work looks awesome by the way! <span class="user">@treemelody</span></p><p class="comnt">19 days ago</p>
+					</div>
+					<div>
+						<p class="comnt"><span class="user">@roymarvelous</span> You can seek a refund through TF if it is not as advertised - but it is :)</p><p class="comnt">21 days ago</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h3>FLICKR WIDGET</h3>
+					<img src="images/flickr.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid soc-wrapper">
+		<div class="container soc">
+			<div class="row">
+				<div class="col-md-3">	
+					<input type="mail" placeholder="Enter email for newsletter"><button>></button>
+				</div>
+				<div class="col-md-offset-5 col-md-4">	
+					<a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="http://fontawesome.io/icon/twitter/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://plus.google.com/"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					<a href="https://www.flickr.com/"><i class="fa fa-flickr" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+	 </div>
+	<div class="container-fluid footer">
+		<div class="container foter">
+			<div class="row">
+				<div class="col-md-3 copy">
+					<p>Copyright © Fooseshoes 2013.</p>
+					<p>Designed by EnzoLiVolti.</p>
+				</div>
+				<div class="col-md-offset-4 col-md-5 links">
+					<p><a href="#">Home</a> / <a href="#">Support</a> / <a href="#">Terms and Conditions</a> / <a href="#">Faqs</a> / <a href="#">Contact us</a></p>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" tabindex="-1" role="dialog" id="loginModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Enter your login and password</h4>
+      </div>
+
+      <div class="modal-body">
+       <form>
+        	<input type="text" name="Login" class="form-control" placeholder="Login">
+        	<input type="password" name="pas" class="form-control" placeholder="Password">
+        </form>
+        <p class="Singup">Sing up?</p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+        <button type="button"  data-dismiss="modal" class="btn btn-success">Log in</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	<div class="modal fade" tabindex="-1" role="dialog" id="SingupModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Registration</h4>
+      </div>
+
+      <div class="modal-body">
+       <form>
+        	<input type="text" name="Login" class="form-control" placeholder="First Name">
+        	<input type="text" name="pas" class="form-control" placeholder="Last Name">
+        	<input type="login" name="pas" class="form-control" placeholder="Login">
+        	<input type="password" name="pas" class="form-control" placeholder="Password">
+        </form>
+      </div>
+
+      <div class="modal-footer">
+       <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+        <button type="button"  data-dismiss="modal" class="btn btn-success">Sing up</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="shopping-cartModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Shopping Cart</h4>
+      </div>
+      <div class="modal-body shopping-items">
+      	
+      </div>
+      <div class="modal-footer">
+      	 <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success" id="signUp">Buy</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	<script src="js/jquery.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
